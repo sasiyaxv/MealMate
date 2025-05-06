@@ -6,41 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1C2A1B662DC9A85B00B25446 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1C2A1B652DC9A85B00B25446 /* FirebaseAuth */; };
+		1C2A1B682DC9A85B00B25446 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1C2A1B672DC9A85B00B25446 /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		461B8FAD2DA8DFC60034167F /* PBXContainerItemProxy */ = {
+		1C2A1B332DC9920000B25446 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 461B8F8F2DA8DFC40034167F /* Project object */;
+			containerPortal = 1C2A1B1A2DC991FE00B25446 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 461B8F962DA8DFC40034167F;
+			remoteGlobalIDString = 1C2A1B212DC991FE00B25446;
 			remoteInfo = MealMate;
 		};
-		461B8FB72DA8DFC60034167F /* PBXContainerItemProxy */ = {
+		1C2A1B3D2DC9920000B25446 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 461B8F8F2DA8DFC40034167F /* Project object */;
+			containerPortal = 1C2A1B1A2DC991FE00B25446 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 461B8F962DA8DFC40034167F;
+			remoteGlobalIDString = 1C2A1B212DC991FE00B25446;
 			remoteInfo = MealMate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		461B8F972DA8DFC40034167F /* MealMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		461B8FAC2DA8DFC60034167F /* MealMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		461B8FB62DA8DFC60034167F /* MealMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2A1B222DC991FE00B25446 /* MealMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2A1B322DC9920000B25446 /* MealMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2A1B3C2DC9920000B25446 /* MealMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		461B8F992DA8DFC40034167F /* MealMate */ = {
+		1C2A1B242DC991FE00B25446 /* MealMate */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MealMate;
 			sourceTree = "<group>";
 		};
-		461B8FAF2DA8DFC60034167F /* MealMateTests */ = {
+		1C2A1B352DC9920000B25446 /* MealMateTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MealMateTests;
 			sourceTree = "<group>";
 		};
-		461B8FB92DA8DFC60034167F /* MealMateUITests */ = {
+		1C2A1B3F2DC9920000B25446 /* MealMateUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MealMateUITests;
 			sourceTree = "<group>";
@@ -48,21 +53,23 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		461B8F942DA8DFC40034167F /* Frameworks */ = {
+		1C2A1B1F2DC991FE00B25446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2A1B682DC9A85B00B25446 /* FirebaseCore in Frameworks */,
+				1C2A1B662DC9A85B00B25446 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2A1B2F2DC9920000B25446 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461B8FA92DA8DFC60034167F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		461B8FB32DA8DFC60034167F /* Frameworks */ = {
+		1C2A1B392DC9920000B25446 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		461B8F8E2DA8DFC40034167F = {
+		1C2A1B192DC991FE00B25446 = {
 			isa = PBXGroup;
 			children = (
-				461B8F992DA8DFC40034167F /* MealMate */,
-				461B8FAF2DA8DFC60034167F /* MealMateTests */,
-				461B8FB92DA8DFC60034167F /* MealMateUITests */,
-				461B8F982DA8DFC40034167F /* Products */,
+				1C2A1B242DC991FE00B25446 /* MealMate */,
+				1C2A1B352DC9920000B25446 /* MealMateTests */,
+				1C2A1B3F2DC9920000B25446 /* MealMateUITests */,
+				1C2A1B232DC991FE00B25446 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		461B8F982DA8DFC40034167F /* Products */ = {
+		1C2A1B232DC991FE00B25446 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				461B8F972DA8DFC40034167F /* MealMate.app */,
-				461B8FAC2DA8DFC60034167F /* MealMateTests.xctest */,
-				461B8FB62DA8DFC60034167F /* MealMateUITests.xctest */,
+				1C2A1B222DC991FE00B25446 /* MealMate.app */,
+				1C2A1B322DC9920000B25446 /* MealMateTests.xctest */,
+				1C2A1B3C2DC9920000B25446 /* MealMateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +102,139 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		461B8F962DA8DFC40034167F /* MealMate */ = {
+		1C2A1B212DC991FE00B25446 /* MealMate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461B8FC02DA8DFC60034167F /* Build configuration list for PBXNativeTarget "MealMate" */;
+			buildConfigurationList = 1C2A1B462DC9920000B25446 /* Build configuration list for PBXNativeTarget "MealMate" */;
 			buildPhases = (
-				461B8F932DA8DFC40034167F /* Sources */,
-				461B8F942DA8DFC40034167F /* Frameworks */,
-				461B8F952DA8DFC40034167F /* Resources */,
+				1C2A1B1E2DC991FE00B25446 /* Sources */,
+				1C2A1B1F2DC991FE00B25446 /* Frameworks */,
+				1C2A1B202DC991FE00B25446 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				461B8F992DA8DFC40034167F /* MealMate */,
+				1C2A1B242DC991FE00B25446 /* MealMate */,
 			);
 			name = MealMate;
 			packageProductDependencies = (
+				1C2A1B652DC9A85B00B25446 /* FirebaseAuth */,
+				1C2A1B672DC9A85B00B25446 /* FirebaseCore */,
 			);
 			productName = MealMate;
-			productReference = 461B8F972DA8DFC40034167F /* MealMate.app */;
+			productReference = 1C2A1B222DC991FE00B25446 /* MealMate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		461B8FAB2DA8DFC60034167F /* MealMateTests */ = {
+		1C2A1B312DC9920000B25446 /* MealMateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461B8FC32DA8DFC60034167F /* Build configuration list for PBXNativeTarget "MealMateTests" */;
+			buildConfigurationList = 1C2A1B492DC9920000B25446 /* Build configuration list for PBXNativeTarget "MealMateTests" */;
 			buildPhases = (
-				461B8FA82DA8DFC60034167F /* Sources */,
-				461B8FA92DA8DFC60034167F /* Frameworks */,
-				461B8FAA2DA8DFC60034167F /* Resources */,
+				1C2A1B2E2DC9920000B25446 /* Sources */,
+				1C2A1B2F2DC9920000B25446 /* Frameworks */,
+				1C2A1B302DC9920000B25446 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				461B8FAE2DA8DFC60034167F /* PBXTargetDependency */,
+				1C2A1B342DC9920000B25446 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				461B8FAF2DA8DFC60034167F /* MealMateTests */,
+				1C2A1B352DC9920000B25446 /* MealMateTests */,
 			);
 			name = MealMateTests;
 			packageProductDependencies = (
 			);
 			productName = MealMateTests;
-			productReference = 461B8FAC2DA8DFC60034167F /* MealMateTests.xctest */;
+			productReference = 1C2A1B322DC9920000B25446 /* MealMateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		461B8FB52DA8DFC60034167F /* MealMateUITests */ = {
+		1C2A1B3B2DC9920000B25446 /* MealMateUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461B8FC62DA8DFC60034167F /* Build configuration list for PBXNativeTarget "MealMateUITests" */;
+			buildConfigurationList = 1C2A1B4C2DC9920000B25446 /* Build configuration list for PBXNativeTarget "MealMateUITests" */;
 			buildPhases = (
-				461B8FB22DA8DFC60034167F /* Sources */,
-				461B8FB32DA8DFC60034167F /* Frameworks */,
-				461B8FB42DA8DFC60034167F /* Resources */,
+				1C2A1B382DC9920000B25446 /* Sources */,
+				1C2A1B392DC9920000B25446 /* Frameworks */,
+				1C2A1B3A2DC9920000B25446 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				461B8FB82DA8DFC60034167F /* PBXTargetDependency */,
+				1C2A1B3E2DC9920000B25446 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				461B8FB92DA8DFC60034167F /* MealMateUITests */,
+				1C2A1B3F2DC9920000B25446 /* MealMateUITests */,
 			);
 			name = MealMateUITests;
 			packageProductDependencies = (
 			);
 			productName = MealMateUITests;
-			productReference = 461B8FB62DA8DFC60034167F /* MealMateUITests.xctest */;
+			productReference = 1C2A1B3C2DC9920000B25446 /* MealMateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		461B8F8F2DA8DFC40034167F /* Project object */ = {
+		1C2A1B1A2DC991FE00B25446 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					461B8F962DA8DFC40034167F = {
+					1C2A1B212DC991FE00B25446 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					461B8FAB2DA8DFC60034167F = {
+					1C2A1B312DC9920000B25446 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 461B8F962DA8DFC40034167F;
+						TestTargetID = 1C2A1B212DC991FE00B25446;
 					};
-					461B8FB52DA8DFC60034167F = {
+					1C2A1B3B2DC9920000B25446 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 461B8F962DA8DFC40034167F;
+						TestTargetID = 1C2A1B212DC991FE00B25446;
 					};
 				};
 			};
-			buildConfigurationList = 461B8F922DA8DFC40034167F /* Build configuration list for PBXProject "MealMate" */;
+			buildConfigurationList = 1C2A1B1D2DC991FE00B25446 /* Build configuration list for PBXProject "MealMate" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 461B8F8E2DA8DFC40034167F;
+			mainGroup = 1C2A1B192DC991FE00B25446;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1C2A1B642DC9A5D500B25446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 461B8F982DA8DFC40034167F /* Products */;
+			productRefGroup = 1C2A1B232DC991FE00B25446 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				461B8F962DA8DFC40034167F /* MealMate */,
-				461B8FAB2DA8DFC60034167F /* MealMateTests */,
-				461B8FB52DA8DFC60034167F /* MealMateUITests */,
+				1C2A1B212DC991FE00B25446 /* MealMate */,
+				1C2A1B312DC9920000B25446 /* MealMateTests */,
+				1C2A1B3B2DC9920000B25446 /* MealMateUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		461B8F952DA8DFC40034167F /* Resources */ = {
+		1C2A1B202DC991FE00B25446 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461B8FAA2DA8DFC60034167F /* Resources */ = {
+		1C2A1B302DC9920000B25446 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461B8FB42DA8DFC60034167F /* Resources */ = {
+		1C2A1B3A2DC9920000B25446 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +244,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		461B8F932DA8DFC40034167F /* Sources */ = {
+		1C2A1B1E2DC991FE00B25446 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461B8FA82DA8DFC60034167F /* Sources */ = {
+		1C2A1B2E2DC9920000B25446 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461B8FB22DA8DFC60034167F /* Sources */ = {
+		1C2A1B382DC9920000B25446 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +268,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		461B8FAE2DA8DFC60034167F /* PBXTargetDependency */ = {
+		1C2A1B342DC9920000B25446 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461B8F962DA8DFC40034167F /* MealMate */;
-			targetProxy = 461B8FAD2DA8DFC60034167F /* PBXContainerItemProxy */;
+			target = 1C2A1B212DC991FE00B25446 /* MealMate */;
+			targetProxy = 1C2A1B332DC9920000B25446 /* PBXContainerItemProxy */;
 		};
-		461B8FB82DA8DFC60034167F /* PBXTargetDependency */ = {
+		1C2A1B3E2DC9920000B25446 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 461B8F962DA8DFC40034167F /* MealMate */;
-			targetProxy = 461B8FB72DA8DFC60034167F /* PBXContainerItemProxy */;
+			target = 1C2A1B212DC991FE00B25446 /* MealMate */;
+			targetProxy = 1C2A1B3D2DC9920000B25446 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		461B8FBE2DA8DFC60034167F /* Debug */ = {
+		1C2A1B442DC9920000B25446 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		461B8FBF2DA8DFC60034167F /* Release */ = {
+		1C2A1B452DC9920000B25446 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +400,7 @@
 			};
 			name = Release;
 		};
-		461B8FC12DA8DFC60034167F /* Debug */ = {
+		1C2A1B472DC9920000B25446 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -408,7 +420,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sasiya.MealMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanishka.MealMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -416,7 +428,7 @@
 			};
 			name = Debug;
 		};
-		461B8FC22DA8DFC60034167F /* Release */ = {
+		1C2A1B482DC9920000B25446 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -436,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sasiya.MealMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanishka.MealMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,7 +456,7 @@
 			};
 			name = Release;
 		};
-		461B8FC42DA8DFC60034167F /* Debug */ = {
+		1C2A1B4A2DC9920000B25446 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,7 +465,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sasiya.MealMateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanishka.MealMateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -462,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		461B8FC52DA8DFC60034167F /* Release */ = {
+		1C2A1B4B2DC9920000B25446 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,7 +483,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sasiya.MealMateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanishka.MealMateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -480,14 +492,14 @@
 			};
 			name = Release;
 		};
-		461B8FC72DA8DFC60034167F /* Debug */ = {
+		1C2A1B4D2DC9920000B25446 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sasiya.MealMateUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanishka.MealMateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -496,14 +508,14 @@
 			};
 			name = Debug;
 		};
-		461B8FC82DA8DFC60034167F /* Release */ = {
+		1C2A1B4E2DC9920000B25446 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sasiya.MealMateUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanishka.MealMateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -515,43 +527,67 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		461B8F922DA8DFC40034167F /* Build configuration list for PBXProject "MealMate" */ = {
+		1C2A1B1D2DC991FE00B25446 /* Build configuration list for PBXProject "MealMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461B8FBE2DA8DFC60034167F /* Debug */,
-				461B8FBF2DA8DFC60034167F /* Release */,
+				1C2A1B442DC9920000B25446 /* Debug */,
+				1C2A1B452DC9920000B25446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461B8FC02DA8DFC60034167F /* Build configuration list for PBXNativeTarget "MealMate" */ = {
+		1C2A1B462DC9920000B25446 /* Build configuration list for PBXNativeTarget "MealMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461B8FC12DA8DFC60034167F /* Debug */,
-				461B8FC22DA8DFC60034167F /* Release */,
+				1C2A1B472DC9920000B25446 /* Debug */,
+				1C2A1B482DC9920000B25446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461B8FC32DA8DFC60034167F /* Build configuration list for PBXNativeTarget "MealMateTests" */ = {
+		1C2A1B492DC9920000B25446 /* Build configuration list for PBXNativeTarget "MealMateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461B8FC42DA8DFC60034167F /* Debug */,
-				461B8FC52DA8DFC60034167F /* Release */,
+				1C2A1B4A2DC9920000B25446 /* Debug */,
+				1C2A1B4B2DC9920000B25446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461B8FC62DA8DFC60034167F /* Build configuration list for PBXNativeTarget "MealMateUITests" */ = {
+		1C2A1B4C2DC9920000B25446 /* Build configuration list for PBXNativeTarget "MealMateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				461B8FC72DA8DFC60034167F /* Debug */,
-				461B8FC82DA8DFC60034167F /* Release */,
+				1C2A1B4D2DC9920000B25446 /* Debug */,
+				1C2A1B4E2DC9920000B25446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C2A1B642DC9A5D500B25446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C2A1B652DC9A85B00B25446 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C2A1B642DC9A5D500B25446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1C2A1B672DC9A85B00B25446 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C2A1B642DC9A5D500B25446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 461B8F8F2DA8DFC40034167F /* Project object */;
+	rootObject = 1C2A1B1A2DC991FE00B25446 /* Project object */;
 }

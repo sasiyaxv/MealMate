@@ -1,10 +1,3 @@
-//
-//  MealMateTests.swift
-//  MealMateTests
-//
-//  Created by Sashminda on 2025-04-11.
-//
-
 import Testing
 @testable import MealMate
 

@@ -1,10 +1,3 @@
-//
-//  MealMateUITests.swift
-//  MealMateUITests
-//
-//  Created by Sashminda on 2025-04-11.
-//
-
 import XCTest
 
 final class MealMateUITests: XCTestCase {
